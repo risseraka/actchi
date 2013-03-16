@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <style>
+            .answer {
+                display: none;
+                font-weight: bold;
+            }
+
+            .meaning {
+                width: 200px;
+                display: inline-block;
+            }
+
+            .group {
+                display: none;
+            }
+        </style>
+    </head>
+    <body>
+        <canvas id="myCanvas" width="100" height="100"></canvas>
+        <br/>
+        <div class="group">
+            <span>A: </span>
+            <div id="answer1" class="answer"></div>
+            <div id="meaning1" class="meaning"></div>
+            <input id="pinyin1" class="pinyin" type="text"/>
+        </div>
+
+        <div class="group">
+            <span>B: </span>
+            <div id="answer2" class="answer"></div>
+            <div id="meaning2" class="meaning"></div>
+            <input id="pinyin2" class="pinyin" type="text"/>
+        </div>
+
+        <div class="group">
+            <span>C: </span>
+            <div id="answer3" class="answer"></div>
+            <div id="meaning3" class="meaning"></div>
+            <input id="pinyin3" class="pinyin" type="text"/>
+        <div>
+
+        <script type="text/JavaScript" src="actchi_data.js"></script>
+        <script type="text/JavaScript" src="actchi.js"></script>
+    </body>
+</html>
